@@ -6,11 +6,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.color-1{
+    color: #5b7ff6;
+}
+.color-2{
+    color: #c54f36; 
+}
+.color-3{
+    color: #cbcb41;
+}
+.color-4{
+    color: #22d095;
+}
+.color-5{
+    color: #fb3d3d;
+}
+.color-6{
+    color: #cfcf5b;
+}
 .header-area{
     position: relative;
     height:100vh;
 }
 
+.fixed-top{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 .bg-overlay{
     background-color: rgba(0, 0, 0, 0.69);
     position: absolute;
@@ -138,4 +160,8 @@ a {
 .card{
     border-radius: 0px !important;
     border:none !important;
+}
+.icon-box{
+    font-size: 60px;
+    margin-top: 20px;
 }
